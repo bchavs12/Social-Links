@@ -7,42 +7,42 @@
 }
 
 html {
-    /*Variáveis*/
-    --bg-color: #EDF2FF;
-    --text-color: #00082f;
-    --primary-color: #4263EB;
-    --primary-color-dark: #364FC7;
+  /*Variáveis*/
+  --bg-color: #edf2ff;
+  --text-color: #00082f;
+  --primary-color: #4263eb;
+  --primary-color-dark: #364fc7;
 }
-header{
-    width: 100%;
-    height: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
+header {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
 }
 .button-mode {
-    width: auto;
-    height: 40px;
-    margin:10px;
+  width: auto;
+  height: 40px;
+  margin: 10px;
 }
 
 body.dark-blue {
-    --bg-color:  #00082f;
-    --text-color: #ffffff;
+  --bg-color: #00082f;
+  --text-color: #ffffff;
 }
 
 body.pink {
-    --bg-color: #fff0f6;
-    --text-color: #1f000b;
-    --primary-color: #D6336C;
-    --primary-color-dark: #A61E4D;
+  --bg-color: #fff0f6;
+  --text-color: #1f000b;
+  --primary-color: #d6336c;
+  --primary-color-dark: #a61e4d;
 }
 
 body.dark-pink {
-    --bg-color: #1f000b;
-    --text-color: #fff0f6;
-    --primary-color: #D6336C;
-    --primary-color-dark: #A61E4D;
+  --bg-color: #1f000b;
+  --text-color: #fff0f6;
+  --primary-color: #d6336c;
+  --primary-color-dark: #a61e4d;
 }
 
 body {
@@ -68,19 +68,18 @@ img.avatar {
   padding: 3.7px;
 }
 
-
 h1 {
-    font-size: 32px;
-    margin-top: 24px;
-    margin-bottom: 8px;
-    font-weight: 450;
+  font-size: 32px;
+  margin-top: 24px;
+  margin-bottom: 8px;
+  font-weight: 450;
 }
 
 .username {
-    font-family: 'Roboto Mono', monospace;
-    font-weight: 400;
-    opacity: 0.8;
-    font-size: 18px;
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 400;
+  opacity: 0.8;
+  font-size: 18px;
 }
 
 ul {
@@ -94,7 +93,7 @@ ul li a {
   align-items: center;
   justify-content: center;
 
-  background: var(--primary-color);/* hex: 0 - F */
+  background: var(--primary-color); /* hex: 0 - F */
 
   border-radius: 6px;
   border: none;
@@ -115,6 +114,7 @@ footer {
   font-weight: 500;
   font-size: 15px;
   opacity: 0.6;
+  transition: opacity 400ms;
 }
 
 #span {
