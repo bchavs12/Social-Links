@@ -1,0 +1,7 @@
+ul li a:hover{
+    background: var(--primary-color-dark);
+}
+
+footer:hover {
+    opacity: 1;
+}
